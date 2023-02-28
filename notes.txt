@@ -1,0 +1,192 @@
+
+ //  <img src='${i.flags.png}' alt='${i.flags.png}'>
+    // <p><strong>Capital</strong>-${i.capital[0]}</p>
+    // <p><strong>Region</strong>-${i.region}</p>
+    // <p><strong>Countrycode</strong>-${i.cca2}</p>
+    // <button>Click for Weather</button>
+
+
+    //    let vp= document.createElement('div')
+//     vp.setAttribute('class','card-Header')
+  
+    
+    // var title = document.getElementById('title');
+    // (title,'h1')
+    // (cardImg.src, 'https://flagcdn.com/w320/is.png');
+
+
+
+     // vp.innerHTML = `
+      
+      
+    //  <h1><strong style='color:black;'>Country</strong>-${i.name.common}</h1>
+    //  <br>
+    //  <br>`
+
+
+
+    <!-- <div class="container">
+<div class="row">
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Iceland</h1></div>
+    <div class="card-body">
+    <img src="https://flagcdn.com/w320/is.png" class="card-img-top" alt="..."><br><br>
+    <div class="card-text">Capital:Reykjavik</div>
+    <div class="card-text">Region:Europe</div>
+    <div class="card-text">Native Name:Island</div>
+    <div class="card-text">Population:366425</div>
+    <div class="card-text">Country Code:AFG</div>
+    <button>Click for Weather</button><br><br>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">New Caledonia</h1></div>
+    <div class="card-body text-primary">
+      <img src="https://flagcdn.com/w320/nc.png" class="card-img-top" alt="..." ><br><br>
+      <div class="card-text">Capital:Nouméa</div>
+      <div class="card-text">Region:Oceania</div>
+      <div class="card-text">Native Name:Oceania</div>
+      <div class="card-text">Population:35789</div>
+      <div class="card-text">Country Code:NC</div>
+      <button>Click for Weather</button>
+    </div>
+  </div>
+</div>
+  
+<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+<div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Japan</h1></div>
+    <div class="card-body text-primary">
+      <img src="https://flagcdn.com/w320/jp.png" class="card-img-top" alt="..."><br><br>
+      <div class="card-text">Capital:Tokyo</div>
+        <div class="card-text">Region:Asia</div>
+        <div class="card-text">Native Name:Tokyo</div>
+        <div class="card-text">Population:56535</div>
+        <div class="card-text">Country Code:JP</div>
+        <button>Click for Weather</button><br><br>
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Somalia</h1></div>
+    <div class="card-body text-primary">
+      
+      <img src="https://flagcdn.com/w320/so.png" class="card-img-top" alt="..."><br><br>
+      <div class="card-text">Capital:Mogadishu</div>
+        <div class="card-text">Region:Asia</div>
+        <div class="card-text">Native Name:Mogadishu</div>
+        <div class="card-text">Population:54545</div>
+        <div class="card-text">Country Code:SO</div>
+        <button>Click for Weather</button>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Kenya</h1></div>
+    <div class="card-body text-primary">
+      
+      <img src="https://flagcdn.com/w320/ke.png" class="card-img-top" alt="..."><br><br>
+      <div class="card-text">Capital:Nairobi</div>
+        <div class="card-text">Region:Asia</div>
+        <div class="card-text">Native Name:Nairobi</div>
+        <div class="card-text">Population:56778</div>
+        <div class="card-text">Country Code:KE</div>
+        <button>Click for Weather</button>
+    </div>
+  </div>
+</div>
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Taiwan</h1></div>
+    <div class="card-body text-primary">
+      
+      <img src="https://flagcdn.com/w320/tw.png" class="card-img-top" alt="..."><br><br>
+      <div class="card-text">Capital:Taipei</div>
+        <div class="card-text">Region:Asia</div>
+        <div class="card-text">Native Name:Taipei</div>
+        <div class="card-text">Population:356798</div>
+        <div class="card-text">Country Code:TW</div>
+        <button>Click for Weather</button>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4" id="DIV">
+  <div class="card h-100" id="DIV" style="max-width: 18rem;">
+    <div class="card-header"><h1 id="title" class="text-center">Moldova</h1></div>
+    <div class="card-body text-primary">
+      
+      <img src="https://flagcdn.com/w320/md.png" class="card-img-top" alt="..."><br><br>
+      <div class="card-text">Capital:Chisinau</div>
+        <div class="card-text">Region:Asia</div>
+        <div class="card-text">Native Name:ron</div>
+        <div class="card-text">Population:2617820</div>
+        <div class="card-text">Country Code:MD</div>
+        <button>Click for Weather</button>
+    </div>
+  </div>
+</div>
+</div>
+</div> -->
+<!--  -->
+
+
+
+
+
+ <!-- <div class="body ">
+  <div class="card " style="max-width: 24rem;">
+    <div class="card-header" ></div>
+    <div class="card-body ">
+      <h5 class="card-title"></h5>
+      <p class="card-text"></p>
+    </div>
+  </div>
+</div> -->
+
+      <!-- <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary"></a>
+        </div>
+      </div> -->
+
+
+
+
+
+
+
+  
+            let kar= document.createElement('div')
+            kar.setAttribute('class','container')
+   
+            kar.innerHTML=`
+            
+                <div class="card h-100" style="max-width: 18rem;">
+                    <div class="col-sm-12 col-lg-4" id="DIV">
+                    <div class="card-header"><h1 id="title" class="text-center">${i.name.common}</h1></div>
+                    <div class="card-body text-primary">
+                        <img src="${i.flags.png}" class="card-img-top" alt="${i.flags.png}"><br><br>
+                        <div class="card-text">Capital:${i.capital[0]}</div>
+                        <div class="card-text">Region:${i.region}</div>
+                        <div class="card-text">Population:${i.population}</div> 
+                        <div class="card-text">Country Code:${i.cca2}</div>
+                        <button>Click for Weather</button>
+                    </div>
+                </div>
+            </div>`
+             
+
+            document.querySelector('body').append(kar)
+
+        }
+    }
